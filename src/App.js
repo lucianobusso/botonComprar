@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       titulo : ['Samsung S11'],
       campos : [{etiqueta:'Descripcion: ', data:'Ultimo modelo de Samsung en Argentina'},{etiqueta:'Precio: ', data:'$ 29.999'},{etiqueta:'SKU: ', data:'QUJ56JH'},{etiqueta:'Cantidad Disponible: ', data:'128'}],
-      mensaje : ['']
+      mensaje : ''
     }
     this.handleClick=this.handleClick.bind(this)
   }
